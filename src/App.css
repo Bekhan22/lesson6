@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #252B42;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FA4A0C;
+}
+
+header .btn {
+    background-color: #BA4270;
+    width: 173px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+.btn {
+    width: 236px;
+    height: 68px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #FA4A0C;
+}
+
+.btn2 {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+    margin-left: 30px;
+}
+
+.tel {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -220px;
+}
+
+.hh {
+    text-align: center;
+    font-variant-numeric: 44px;
+    margin-top: 650px;
+    margin-bottom: 50px;
+}
+
+.texts {
+    display: flex;
+}
+
+.text2 {
+    margin-top: 250px;
+}
+
+.text2 h1 {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text2 p {
+    color: #737373;
+}
+
+.text2 h2 {
+    color: #FA4A0C;
+}
+
+#tt {
+    margin-left: 300px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos i{
+    color: #FA4A0C;
+    font-size: 40px;
+    margin-left: 40px;
+}
